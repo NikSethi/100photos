@@ -1,0 +1,59 @@
+@font-face {
+    font-family: PPNeueMontreal;
+    src: url("../fonts/PPNeueMontreal-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: PPNeueMontreal;
+    font-weight: bold;
+    src: url("../fonts/PPNeueMontreal-Bold.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: PPNeueMontreal;
+    font-style: italic;
+    src: url("../fonts/PPNeueMontreal-Italic.otf") format("opentype");
+}
+
+.header h2 {
+   margin: 0px 0 10px 0;
+}
+
+strong {
+   font-weight: medium;
+}
+
+.header {
+   padding-top: 15px;
+   padding-left: 15px;
+   padding-bottom: 20px;
+}
+
+.header p {
+   font-size: 12pt;
+   margin:0;
+}
+
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #F6E8FC;
+   color: #4B0D68;
+   font-family: PPNeueMontreal, sans-serif;
+   word-wrap: break-word;
+   font-size:16pt;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: wavy underline;
+}
+
+img {
+   width: 100%;
+}
